@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>TrapezoidCalculator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <p>Paragraph</p>
+   <h1>Trapezoid Calculator</h1>
+    <br>
+    <table border = 0 class="center">
+      <tr>
+        <td>
+          <label> Enter Base a (cm):</label> 
+            <input id="base-a" type="text" value="" placeholder="Enter">
+             <br>
+          <label> Enter Base b (cm)</label>
+            <input id="base-b" type="text" value="" placeholder="Enter">
+            <br>
+          <label> Enter Height (cm)</label> 
+            <input id="height" type="text" value="" placeholder="Enter">
+            <br>
+          <button onclick="calcArea()">Enter</button>
+          <div id="answer"></div>
+        </td>
+        <td>
+        <img src="images/Trapezoid_sides_altitude.png">
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
